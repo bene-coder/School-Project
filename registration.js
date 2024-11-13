@@ -54,5 +54,5 @@ button.addEventListener('click', () => {
         alert("Registration complete");
         window.location.href = 'index.html';                                                                                                                                       
     }
-    
+    // done with the project
 });

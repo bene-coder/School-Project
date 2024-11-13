@@ -6,3 +6,4 @@ toggle.addEventListener('click', () => {
     navbar.classList.toggle("show");
     removeNav.classList.toggle("active");
 });
+// done with the project
