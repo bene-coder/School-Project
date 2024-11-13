@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  
+  <title>Join Insure</title>
+
+  <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+  <div class="container">
+<div class="writing">
+<h1>  Join Insure
+</h1>
+ <p> Get your life insurance coverage easier and faster. Join us and experience easy-life insurance. </p>
+</div>
+<div class="input-container">
+<p class="bonus"><b>Join  us</b> enjoy us</p>
+<div class="input-box">
+  <form class="reg-form" onsubmit="return formValidator(event)">
+  <input type="text" name="text" id="first-name" placeholder="First Name"></input>
+  <p id="first-name-error"></p>
+  <input type="text" name="text" id="last-name" placeholder="Last Name"></input>
+  <p id="last-name-error"></p>
+  <input type="text" name="email" id="email" placeholder="example@example.com"></input>
+  <p id="email-error"></p>
+  <input type="password" name="Password" id="password" placeholder="Password"></input>
+  <p id="password-error"></p>
+  <button id="submit-btn" type="submit"> Register</button> 
+</form>
+<p class="agreement"> By clicking the button, you are agreeing to our <strong>Terms and Services</strong></p>
+</div>
+</div>
+</div>
+<script src="registration.js"></script>
+</body>
+</html>
